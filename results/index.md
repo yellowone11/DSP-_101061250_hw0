@@ -4,19 +4,51 @@
 
 ## Overview
 The project is related to 
-> Use some algorithm to filp or rotate the image;
+> To filp image horizontal, vertical and both of them;
+> To rotate image at any angle;
 
 ## Implementation
 1. image filpping
-	* <img src="../files/fig1.png" width="510">
-	  <br>
 	  <img src="../files/fig2.png" width="510">
-	  <br>
+First, I seperate the image into three channel(R, G, B) and process them individually.  
+Second, by the giving information, I create the flipping algorithm by double for loop.
+
+		```
+ <horizontal>
+  for h = 1 : height
+       for w = 1 : width 
+             R_flip(h, w) = R(h, (width -w + 1)); 
+             G_flip(h, w) = G(h, (width -w + 1));
+             B_flip(h, w) = B(h, (width- w + 1));
+       end
+  end
+		```
+		```
+  <vertical>
+  for w = 1 : width
+       for h = 1 : height 
+             R_flip(h, w) = R( (height - h + 1), w ); 
+             G_flip(h, w) = G( (height - h + 1) , w );
+             B_flip(h, w) = B( (height- h + 1) , w );
+       end
+  end
+		```
+		```
+  <both>
+  for h = 1 : height
+       for w = 1 : width 
+             R_flip(h, w) = R((height - h + 1),(width - w + 1)); 
+             G_flip(h, w) = G((height - h + 1),(width - w + 1));
+             B_flip(h, w) = B((height - h + 1),(width - w + 1));
+       end
+  end
+		```
+	 
+2. image rotation
 	  <img src="../files/fig3.png" width="510">	
 	  <br>
 	  <img src="../files/fig4.png" width="510">
 	  <br>
-2. image rotation
 
 		```
 		Code highlights
