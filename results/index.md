@@ -7,13 +7,14 @@
 The project is related to 
 > To filp image horizontal, vertical and both of them;
 > To rotate image at any angle;
-
+	</br>
+	<br>
 ## Implementation
  * image filpping
  
 	1. I seperate the image into three channel(R, G, B) and process them individually.  
 	2. By the giving information, I create the flipping algorithm by double for loop.
-	</br>
+
 	</center>
 	<img src="../files/fig1.png" width="510">
 	</center>
@@ -49,7 +50,9 @@ The project is related to
        end
   end
 ```
-* image rotation </br>
+</br>
+<br>
+* image rotation 
 	- step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
@@ -107,7 +110,8 @@ The project is related to
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
 	  </br>
-
+	 ### Result images
+	<br>
  		<table border=1>
  		<tr>
  		<td>
@@ -145,6 +149,6 @@ The project is related to
  		</tr>
  
  		</table>
-	
+		</br>
 
 
