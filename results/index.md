@@ -48,22 +48,27 @@ The project is related to
        end
   end
 		```
+
 	 
 2. image rotation
+	step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
+	step2. find min x, min y, max x, max y.
+	step3. consider how much to shift the image to the positive axis.
+	step4. calculate new width and height.
+	step5. initial r,g,b array for the new image.
+	step6. back-warping using bilinear interpolation.
 	
-		## Installation
-		* Other required packages.
-		* How to compile from source?
+
 
 		### Results
 
 		<table border=1>
 		<tr>
 		<td>
-		<img src="placeholder.jpg" width="24%"/>
-		<img src="placeholder.jpg"  width="24%"/>
-		<img src="placeholder.jpg" width="24%"/>
-		<img src="placeholder.jpg" width="24%"/>
+		<img src="../result/flip horizontal.jpg" width="24%"/>
+		<img src="../result/flip vertical.jpg"  width="24%"/>
+		<img src="../result/both.jpg" width="24%"/>
+		<img src="../result/rotate_60.jpg" width="24%"/>
 		</td>
 		</tr>
 
