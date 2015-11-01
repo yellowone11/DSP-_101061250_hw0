@@ -104,11 +104,11 @@ The project is related to
              g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
             
-```
+		```
 </br>
 ### Results
 	
-		
+		</center>
 		<img src="./flip horizontal.jpg" width="24%"/>
 		<img src="./flip vertical.jpg"  width="24%"/>
 		<img src="./flip both.jpg" width="24%"/>
@@ -126,7 +126,7 @@ The project is related to
 		<img src="../result2/rotate_135.jpg" width="18%"/>
 	
 		<img src="../tort.jpg" width="80%"/>
-		
+		</center>
 	
 
 
