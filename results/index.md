@@ -2,13 +2,13 @@
 
 # HW0 /  Pixel array manipulation
 
-<br>
+
 ## Overview
 The project is related to 
 > To filp image horizontal, vertical and both of them;
 > To rotate image at any angle;
-	</br>
-	<br>
+
+
 ## Implementation
  * image filpping
  
@@ -50,8 +50,8 @@ The project is related to
        end
   end
 ```
-</br>
-<br>
+
+
 * image rotation 
 	- step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
@@ -83,10 +83,10 @@ The project is related to
 	 height_new = ceil(max_y) - floor(min_y);
 	```
 
-	- step5. back rapping </br>
+	- step5. back rapping 
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
 	  2. else if it is outside of the source image , set r,g,b = 0;
-	  <br>
+
 ```
 	    if(x1== x2)
                 wa = 1/2;
@@ -109,9 +109,9 @@ The project is related to
              g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
-	  </br>
+
 	 ### Result images
-	<br>
+
  		<table border=1>
  		<tr>
  		<td>
@@ -149,6 +149,6 @@ The project is related to
  		</tr>
  
  		</table>
-		</br>
+	
 
 
