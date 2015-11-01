@@ -108,7 +108,7 @@ The project is related to
 
 
 		### Results
-		*image.jpg
+	
 		
 		<table border=1>
 		<tr>
@@ -127,7 +127,7 @@ The project is related to
 		</td>
 		</tr>
 		
-		*tort.jpg
+	
 		
 		</table>
 		<table border=1>
