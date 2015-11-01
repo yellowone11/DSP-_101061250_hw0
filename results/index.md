@@ -124,8 +124,7 @@ The project is related to
 		</td>
 		</tr>
 
-		</table>
-		<table border=1>
+
 		<tr>
 		<td>
 		<img src="../result2/flip horizontal.jpg" width="20%"/>
