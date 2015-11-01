@@ -12,6 +12,7 @@ The project is related to
  
 	1. I seperate the image into three channel(R, G, B) and process them individually.  
 	2. By the giving information, I create the flipping algorithm by double for loop.
+	</br>
 	</center>
 	<img src="../files/fig1.png" width="510">
 	</center>
@@ -108,6 +109,7 @@ The project is related to
 
 		### Results
 		*image.jpg
+		
 		<table border=1>
 		<tr>
 		<td>
@@ -124,7 +126,9 @@ The project is related to
 	
 		</td>
 		</tr>
+		
 		*tort.jpg
+		
 		</table>
 		<table border=1>
 		<tr>
