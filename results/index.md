@@ -8,7 +8,7 @@ The project is related to
 > To rotate image at any angle;
 
 ## Implementation
-1. image filpping
+### 1. image filpping
 	</br>
 	a. I seperate the image into three channel(R, G, B) and process them individually.  
 	b. By the giving information, I create the flipping algorithm by double for loop.
@@ -51,19 +51,19 @@ The project is related to
 	</br>
 
 	 
-2. image rotation
+### 2. image rotation
 	</br>	
-	step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
+	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 		</br>
-	step2. find min x, min y, max x, max y.
+	-step2. find min x, min y, max x, max y.
 		</br>
-	step3. consider how much to shift the image to the positive axis.
+	-step3. consider how much to shift the image to the positive axis.
 		</br>
-	step4. calculate new width and height.
+	-step4. calculate new width and height.
 		</br>
-	step5. initial r,g,b array for the new image.
+	-step5. initial r,g,b array for the new image.
 		</br>
-	step6. back-warping using bilinear interpolation.
+	-step6. back-warping using bilinear interpolation.
 			</br>	
 
 
