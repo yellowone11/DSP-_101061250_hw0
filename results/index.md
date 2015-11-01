@@ -106,7 +106,7 @@ The project is related to
 ```
 
 	
-### Results
+### Result images
 
 
 		<table>
@@ -125,8 +125,9 @@ The project is related to
 		<img src="../image.jpg" width="80%">
 		</td>
 		</tr>
-
+		</table>
 		
+		<table>
 		<pre lang="tort.jpg">
 		<tr>
 		<td>
@@ -137,13 +138,12 @@ The project is related to
 		<img src="../result2/rotate_135.jpg" width="18%">
 		</td>
 		</tr>
-
+	
 		<tr>
 		<td>
 		<img src="../tort.jpg" width="80%">
  		</td>
  		</tr>
-		
 		</table>
 
 	
