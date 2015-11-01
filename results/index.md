@@ -8,7 +8,7 @@ The project is related to
 > To rotate image at any angle;
 
 ## Implementation
- 1. image filpping
+ * image filpping
  
 	1. I seperate the image into three channel(R, G, B) and process them individually.  
 	2. By the giving information, I create the flipping algorithm by double for loop.
@@ -47,7 +47,7 @@ The project is related to
        end
   end
 ```
- 2. image rotation </br>
+ 2. image rotation 
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
@@ -82,12 +82,12 @@ The project is related to
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
 	  2. else if it is outside of the source image , set r,g,b = 0;
 
-
 	  </center>
 	  <img src="../files/fig3.png" width="400">
 	  </center>
+	  </br>
 
-### Results
+		### Results
 
 		<table border=1>
 		<tr>
