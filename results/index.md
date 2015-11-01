@@ -110,11 +110,11 @@ The project is related to
 		<table border=1>
 		<tr>
 		<td>
-		<img src="../result2/flip horizontal.jpg" width="20%"/>
-		<img src="../result2/flip vertical.jpg"  width="20%"/>
-		<img src="../result2/flip both.jpg" width="20%"/>
-		<img src="../result2/rotate_60.jpg" width="20%"/>
-		<img src="../result2/rotate_135.jpg" width="20%"/>
+		<img src="../result2/flip horizontal.jpg" width="18%"/>
+		<img src="../result2/flip vertical.jpg"  width="18%"/>
+		<img src="../result2/flip both.jpg" width="18%"/>
+		<img src="../result2/rotate_60.jpg" width="18%"/>
+		<img src="../result2/rotate_135.jpg" width="18%"/>
 		</td>
 		</tr>
 
