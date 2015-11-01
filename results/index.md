@@ -109,7 +109,7 @@ The project is related to
 ### Result images
 
 
-		<table>
+	
 		<pre lang="image.jpg">
 		<tr>
  		<td>
@@ -127,7 +127,7 @@ The project is related to
 		</tr>
 		</table>
 		
-		<table>
+		<table border =1>
 		<pre lang="tort.jpg">
 		<tr>
 		<td>
