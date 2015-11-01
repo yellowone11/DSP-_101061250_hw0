@@ -49,14 +49,14 @@ The project is related to
   end
 ```
 * image rotation </br>
-	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
+	- step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
 	vertex = [1 width 1 width ;1 1 height height] ; % create an 2*4 matrix for rotation
 	vertex_new = matrix * vertex;
 	```
 
-	-step2. find min x, min y, max x, max y.
+	- step2. find min x, min y, max x, max y.
 	
 	```
 	min_x = min(vertex_new(1,:));
@@ -65,21 +65,21 @@ The project is related to
 	min_y = min(vertex_new(2,:)); 
 	```
 
-	-step3. shift the image to the positive axis.
+	- step3. shift the image to the positive axis.
 
 	```
 	 x_shift = 1-min_x;  
 	 y_shift = 1-min_y;
 	```
 
-	-step4. calculate new width and height.
+	- step4. calculate new width and height.
 
 	```
 	 width_new = ceil(max_x) - floor(min_x);         
 	 height_new = ceil(max_y) - floor(min_y);
 	```
 
-	-step5. back rapping </br>
+	- step5. back rapping </br>
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
 	  2. else if it is outside of the source image , set r,g,b = 0;
 ```
@@ -105,7 +105,7 @@ The project is related to
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
             
 ```
-	  </br>
+
 
 		### Results
 		*image.jpg
