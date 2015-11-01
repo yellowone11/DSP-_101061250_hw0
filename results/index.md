@@ -106,8 +106,7 @@ The project is related to
             ```
 
 	
-### Results </br>
-		
+### Results
 		<table border=1>
 		<tr>
 		<td>
@@ -121,7 +120,7 @@ The project is related to
 		</tr>
 	
 		
-		<table border=1>
+		<table border=2>
 		<tr>
 		<td>
 		<img src="../result2/flip horizontal.jpg" width="18%"/>
