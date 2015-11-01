@@ -84,13 +84,14 @@ The project is related to
 
 
 
-	  </center>
-	  <img src="../files/fig3.png" width="400">
-	  </center>
 	 
 
 		### Results
 
+
+	  </center>
+	  <img src="../files/fig3.png" width="400">
+	  </center>
 		<table border=1>
 		<tr>
 		<td>
@@ -131,4 +132,25 @@ The project is related to
 
 
 
-
+```
+	    if(x1== x2)
+                wa = 1/2;
+            else
+                wa = (x_old-x1)/(x2-x1);
+            end
+            
+             if(y1== y2)
+                wb = 1/2;
+             else
+                wb = (y_old-y1)/(y2-y1);
+             end
+             
+	    w1=(1-wa)*(1-wb);
+            w2=wa*(1-wb);
+            w3=wa*wb;
+            w4=(1-wa)*wb;
+            
+             r = R(y1,x1)*w1 + R(y2,x1)*w2 + R(y2,x2)*w3 + R(y1,x2)*w4;
+             g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
+             b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
+```
