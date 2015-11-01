@@ -104,7 +104,9 @@ The project is related to
              g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
-
+	</center>
+	<img src="../files/fig1.png" width="510">
+	</center>
 	
 ### Results
  
