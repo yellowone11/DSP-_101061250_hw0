@@ -8,13 +8,13 @@ The project is related to
 
 ## Implementation
 1. image filpping
-	* <img src="./DSP-_101061250_hw0/files/fig1.png" width="510">
+	* <img src="../files/fig1.png" width="510">
 	  <br>
-	  <img src="./DSP-_101061250_hw0/files/fig2.png" width="510">
+	  <img src="../files/fig2.png" width="510">
 	  <br>
-	  <img src="./DSP-_101061250_hw0/files/fig3.png" width="510">	
+	  <img src="../files/fig3.png" width="510">	
 	  <br>
-	  <img src="./DSP-_101061250_hw0/files/fig4.png" width="510">
+	  <img src="../files/fig4.png" width="510">
 	  <br>
 2. image rotation
 
