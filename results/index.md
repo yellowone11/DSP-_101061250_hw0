@@ -55,9 +55,7 @@ The project is related to
 	  <img src="../files/fig4.png" width="510">
 	  <br>
 
-		```
-		Code highlights
-		```
+	
 
 		## Installation
 		* Other required packages.
