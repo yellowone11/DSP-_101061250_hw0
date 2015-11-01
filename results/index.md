@@ -64,7 +64,7 @@ The project is related to
 	min_y = min(vertex_new(2,:)); 
 	```
 
-	-step3. consider how much to shift the image to the positive axis.
+	-step3. shift the image to the positive axis.
 
 	```
 	 x_shift = 1-min_x;  
@@ -84,7 +84,7 @@ The project is related to
 
 
 	  </center>
-	  <img src="../files/fig1.png" width="300">
+	  <img src="../files/fig3.png" width="400">
 	  </center>
 
 ### Results
@@ -92,19 +92,19 @@ The project is related to
 		<table border=1>
 		<tr>
 		<td>
-		<img src="../result/flip horizontal.jpg" width="24%"/>
-		<img src="../result/flip vertical.jpg"  width="24%"/>
-		<img src="../result/both.jpg" width="24%"/>
-		<img src="../result/rotate_60.jpg" width="24%"/>
+		<img src="./flip horizontal.jpg" width="24%"/>
+		<img src="./flip vertical.jpg"  width="24%"/>
+		<img src="./both.jpg" width="24%"/>
+		<img src="./rotate_60.jpg" width="24%"/>
 		</td>
 		</tr>
 
 		<tr>
 		<td>
-		<img src="placeholder.jpg" width="24%"/>
-		<img src="placeholder.jpg"  width="24%"/>
-		<img src="placeholder.jpg" width="24%"/>
-		<img src="placeholder.jpg" width="24%"/>
+		<img src="../test_image.jpg" width="24%"/>
+		<img src="../test_image.jpg"  width="24%"/>
+		<img src="../test_image.jpg" width="24%"/>
+		<img src="../test_image.jpg" width="24%"/>
 		</td>
 		</tr>
 
