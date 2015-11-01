@@ -90,7 +90,7 @@ The project is related to
 
 
 	  </center>
-	  <img src="../files/fig3.png" width="400">
+      	  <img src="../image.jpg" width="80%"/>
 	  </center>
 		<table border=1>
 		<tr>
