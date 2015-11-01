@@ -47,7 +47,7 @@ The project is related to
        end
   end
 ```
- 2. image rotation 
+* image rotation 
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
@@ -94,17 +94,17 @@ The project is related to
 		<td>
 		<img src="./flip horizontal.jpg" width="24%"/>
 		<img src="./flip vertical.jpg"  width="24%"/>
-		<img src="./both.jpg" width="24%"/>
+		<img src="./flip both.jpg" width="24%"/>
 		<img src="./rotate_60.jpg" width="24%"/>
 		</td>
 		</tr>
 
 		<tr>
 		<td>
-		<img src="../test_image.jpg" width="24%"/>
-		<img src="../test_image.jpg"  width="24%"/>
-		<img src="../test_image.jpg" width="24%"/>
-		<img src="../test_image.jpg" width="24%"/>
+		<img src="../image.jpg" width="24%"/>
+		<img src="../image.jpg"  width="24%"/>
+		<img src="../image.jpg" width="24%"/>
+		<img src="../image.jpg" width="24%"/>
 		</td>
 		</tr>
 
