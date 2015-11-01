@@ -2,19 +2,16 @@
 
 # HW0 /  Pixel array manipulation
 
-
 ## Overview
 The project is related to 
 > To filp image horizontal, vertical and both of them;
 > To rotate image at any angle;
-
 
 ## Implementation
  * image filpping
  
 	1. I seperate the image into three channel(R, G, B) and process them individually.  
 	2. By the giving information, I create the flipping algorithm by double for loop.
-
 	</center>
 	<img src="../files/fig1.png" width="510">
 	</center>
@@ -50,17 +47,15 @@ The project is related to
        end
   end
 ```
-
-
 * image rotation 
-	- step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
+	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
 	vertex = [1 width 1 width ;1 1 height height] ; % create an 2*4 matrix for rotation
 	vertex_new = matrix * vertex;
 	```
 
-	- step2. find min x, min y, max x, max y.
+	-step2. find min x, min y, max x, max y.
 	
 	```
 	min_x = min(vertex_new(1,:));
@@ -69,23 +64,72 @@ The project is related to
 	min_y = min(vertex_new(2,:)); 
 	```
 
-	- step3. shift the image to the positive axis.
+	-step3. shift the image to the positive axis.
 
 	```
 	 x_shift = 1-min_x;  
 	 y_shift = 1-min_y;
 	```
 
-	- step4. calculate new width and height.
+	-step4. calculate new width and height.
 
 	```
 	 width_new = ceil(max_x) - floor(min_x);         
 	 height_new = ceil(max_y) - floor(min_y);
 	```
 
-	- step5. back rapping 
+	-step5. back rapping </br>
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
 	  2. else if it is outside of the source image , set r,g,b = 0;
+
+	  </center>
+	  <img src="../files/fig3.png" width="400">
+	  </center>
+	  </br>
+
+		### Results
+
+		<table border=1>
+		<tr>
+		<td>
+		<img src="./flip horizontal.jpg" width="24%"/>
+		<img src="./flip vertical.jpg"  width="24%"/>
+		<img src="./flip both.jpg" width="24%"/>
+		<img src="./rotate_60.jpg" width="24%"/>
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		<img src="../image.jpg" width="80%"/>
+	
+		</td>
+		</tr>
+
+		</table>
+		<table border=1>
+		<tr>
+		<td>
+		<img src="../result2/flip horizontal.jpg" width="20%"/>
+		<img src="../result2/flip vertical.jpg"  width="20%"/>
+		<img src="../result2/flip both.jpg" width="20%"/>
+		<img src="../result2/rotate_60.jpg" width="20%"/>
+		<img src="../result2/rotate_135.jpg" width="20%"/>
+		</td>
+		</tr>
+
+		<tr>
+		<td>
+		<img src="../tort.jpg" width="80%"/>
+		
+		</td>
+		</tr>
+
+		</table>
+
+
+
+
 
 ```
 	    if(x1== x2)
@@ -109,46 +153,3 @@ The project is related to
              g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
-
-	 ### Result images
-
- 		<table border=1>
- 		<tr>
- 		<td>
- 		<img src="./flip horizontal.jpg" width="24%"/>
- 		<img src="./flip vertical.jpg"  width="24%"/>
- 		<img src="./flip both.jpg" width="24%"/>
- 		<img src="./rotate_60.jpg" width="24%"/>
- 		</td>
- 		</tr>
- 
- 		<tr>
- 		<td>
- 		<img src="../image.jpg" width="80%"/>
- 	
- 		</td>
- 		</tr>
- 
- 		</table>
- 		<table border=1>
- 		<tr>
- 		<td>
- 		<img src="../result2/flip horizontal.jpg" width="18%"/>
-		<img src="../result2/flip vertical.jpg"  width="18%"/>
-		<img src="../result2/flip both.jpg" width="18%"/>
-		<img src="../result2/rotate_60.jpg" width="18%"/>
-		<img src="../result2/rotate_135.jpg" width="18%"/>
- 		</td>
- 		</tr>
- 
- 		<tr>
- 		<td>
- 		<img src="../tort.jpg" width="80%"/>
- 		
- 		</td>
- 		</tr>
- 
- 		</table>
-	
-
-
