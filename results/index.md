@@ -83,6 +83,7 @@ The project is related to
 	- step5. back rapping </br>
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
 	  2. else if it is outside of the source image , set r,g,b = 0;
+	  <br>
 ```
 	    if(x1== x2)
                 wa = 1/2;
@@ -105,7 +106,7 @@ The project is related to
              g = G(y1,x1)*w1 + G(y2,x1)*w2 + G(y2,x2)*w3 + G(y1,x2)*w4;
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
-</br>
+	  </br>
 
 ## Results
  
