@@ -105,7 +105,7 @@ The project is related to
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
             
 		```
-</br>
+
 	
 ### Results </br>
 		
