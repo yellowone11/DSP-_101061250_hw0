@@ -50,19 +50,39 @@ The project is related to
  2. image rotation </br>
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 		</br>
+	```
+	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
+	vertex = [1 width 1 width ;1 1 height height] ; % create an 2*4 matrix for rotation
+	vertex_new = matrix * vertex;
+	```
 	-step2. find min x, min y, max x, max y.
 		</br>
+	```
+	min_x = min(vertex_new(1,:));
+	max_x = max(vertex_new(1,:));
+	max_y = max(vertex_new(2,:)); 
+	min_y = min(vertex_new(2,:)); 
+	```
 	-step3. consider how much to shift the image to the positive axis.
 		</br>
+	```
+	 x_shift = 1-min_x;  
+	 y_shift = 1-min_y;
+	```
 	-step4. calculate new width and height.
 		</br>
-	-step5. initial r,g,b array for the new image.
-		</br>
-	-step6. back-warping using bilinear interpolation.
-			</br>	
+	```
+	 width_new = ceil(max_x) - floor(min_x);         
+	 height_new = ceil(max_y) - floor(min_y);
+	```
+	-step5. back rapping </br>
+	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
+	  2. else if it is outside of the source image , set r,g,b = 0;
+	  </center>
+	  <img src="../files/fig1.png" width="300">
+	  </center>
 
-
-		### Results
+### Results
 
 		<table border=1>
 		<tr>
