@@ -108,7 +108,7 @@ The project is related to
 	
 ### Results
 
-		<table border=1>
+		<table>
 		<tr>
 		<td>
 		<img src="./flip horizontal.jpg" width="24%"/>
@@ -122,7 +122,7 @@ The project is related to
 		</table>
 		
 		
-		<table border=2>
+		<table>
 		<tr>
 		<td>
 		<img src="../result2/flip horizontal.jpg" width="18%"/>
