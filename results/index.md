@@ -47,11 +47,7 @@ The project is related to
        end
   end
 ```
-	</br>
-
-	 
 ### 2. image rotation
-	</br>	
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 		</br>
 	-step2. find min x, min y, max x, max y.
