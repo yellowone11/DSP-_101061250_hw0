@@ -108,7 +108,7 @@ The project is related to
 	
 ### Results
 
-		<table border=1>
+	
 		<tr>
  		<td>
 -		<img src="../image.jpg" width="24%"/>
