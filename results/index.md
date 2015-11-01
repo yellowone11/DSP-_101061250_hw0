@@ -13,7 +13,7 @@ The project is related to
 	a. I seperate the image into three channel(R, G, B) and process them individually.  
 	b. By the giving information, I create the flipping algorithm by double for loop.
 	</center>
-	<img src="../files/fig2.png" width="510">
+	<img src="../files/fig1.png" width="510">
 	</center>
 	</br>
 
