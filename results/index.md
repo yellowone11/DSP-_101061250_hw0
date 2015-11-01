@@ -102,14 +102,12 @@ The project is related to
 		</td>
 		</tr>
 
-		<tr>
-		<td>
-		<img src="../image.jpg" width="80%"/>
-	
-		</td>
-		</tr>
+		
 
 		</table>
+	 </center>
+     	<img src="../tort.jpg" width="80%"/>
+	  </center>
 		<table border=1>
 		<tr>
 		<td>
@@ -121,12 +119,7 @@ The project is related to
 		</td>
 		</tr>
 
-		<tr>
-		<td>
-		<img src="../tort.jpg" width="80%"/>
-		
-		</td>
-		</tr>
+	
 
 		</table>
 
