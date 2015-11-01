@@ -9,7 +9,9 @@ The project is related to
 
 ## Implementation
 1. image filpping
-	  <img src="../files/fig2.png" width="510">
+	</center>
+	<img src="../files/fig2.png" width="510">
+	</center>
 First, I seperate the image into three channel(R, G, B) and process them individually.  
 Second, by the giving information, I create the flipping algorithm by double for loop.
 
