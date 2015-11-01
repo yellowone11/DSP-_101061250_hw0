@@ -87,7 +87,7 @@ The project is related to
 	  </center>
 	  <img src="../files/fig3.png" width="400">
 	  </center>
-	  </br>
+	 
 
 		### Results
 
