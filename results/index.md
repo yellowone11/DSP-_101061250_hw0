@@ -48,16 +48,23 @@ The project is related to
        end
   end
 		```
+	</br>
 
 	 
 2. image rotation
+	</br>	
 	step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
+		</br>
 	step2. find min x, min y, max x, max y.
+		</br>
 	step3. consider how much to shift the image to the positive axis.
+		</br>
 	step4. calculate new width and height.
+		</br>
 	step5. initial r,g,b array for the new image.
+		</br>
 	step6. back-warping using bilinear interpolation.
-	
+			</br>	
 
 
 		### Results
