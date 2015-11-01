@@ -49,7 +49,6 @@ The project is related to
 ```
  2. image rotation </br>
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
-		</br>
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
 	vertex = [1 width 1 width ;1 1 height height] ; % create an 2*4 matrix for rotation
