@@ -1,6 +1,6 @@
-# Your Name <span style="color:red">(yout cs id)</span>
+# 黃翊 <span style="color:red">(101061250)</span>
 
-# Project 1 / Image Filtering and Hybrid Images
+# HW0 /  Pixel array manipulation
 
 ## Overview
 The project is related to 
