@@ -108,31 +108,36 @@ The project is related to
 	
 ### Results
 
-		<table>
+		<table border=1>
 		<tr>
-		<td>
-		<img src="./flip horizontal.jpg" width="24%"/>
-		<img src="./flip vertical.jpg"  width="24%"/>
-		<img src="./flip both.jpg" width="24%"/>
-		<img src="./rotate_60.jpg" width="24%"/>
-		<img src="../image.jpg" width="80%"/>
-		</td>
-		</tr>
-		
-		</table>
-		
-		
-		<table>
-		<tr>
-		<td>
-		<img src="../result2/flip horizontal.jpg" width="18%"/>
-		<img src="../result2/flip vertical.jpg"  width="18%"/>
-		<img src="../result2/flip both.jpg" width="18%"/>
-		<img src="../result2/rotate_60.jpg" width="18%"/>
-		<img src="../result2/rotate_135.jpg" width="18%"/>
-		<img src="../tort.jpg" width="80%"/>
-		</td>
-		</tr>
+ 		<td>
+-		<img src="../image.jpg" width="24%"/>
+-		<img src="../image.jpg"  width="24%"/>
+-		<img src="../image.jpg" width="24%"/>
+-		<img src="../image.jpg" width="24%"/>
++		<img src="../image.jpg" width="80%"/>
++	
++		</td>
++		</tr>
++
++		</table>
++		<table border=1>
++		<tr>
++		<td>
++		<img src="../result2/flip horizontal.jpg" width="20%"/>
++		<img src="../result2/flip vertical.jpg"  width="20%"/>
++		<img src="../result2/flip both.jpg" width="20%"/>
++		<img src="../result2/rotate_60.jpg" width="20%"/>
++		<img src="../result2/rotate_135.jpg" width="20%"/>
++		</td>
++		</tr>
++
++		<tr>
++		<td>
++		<img src="../tort.jpg" width="80%"/>
++		
+ 		</td>
+ 		</tr>
 		
 		</table>
 
