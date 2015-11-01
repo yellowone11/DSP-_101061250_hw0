@@ -108,42 +108,25 @@ The project is related to
 </br>
 ### Results
 	
-		<table border=1>
-		<tr>
-		<td>
+		
 		<img src="./flip horizontal.jpg" width="24%"/>
 		<img src="./flip vertical.jpg"  width="24%"/>
 		<img src="./flip both.jpg" width="24%"/>
 		<img src="./rotate_60.jpg" width="24%"/>
-		</td>
-		</tr>
-
-		<tr>
-		<td>
+	
+	
 		<img src="../image.jpg" width="80%"/>
-		</td>
-		</tr>
-		</table>
-		</br>
+	
 		
-		<table border=1>
-		<tr>
-		<td>
+	
 		<img src="../result2/flip horizontal.jpg" width="18%"/>
 		<img src="../result2/flip vertical.jpg"  width="18%"/>
 		<img src="../result2/flip both.jpg" width="18%"/>
 		<img src="../result2/rotate_60.jpg" width="18%"/>
 		<img src="../result2/rotate_135.jpg" width="18%"/>
-		</td>
-		</tr>
-
-		<tr>
-		<td>
+	
 		<img src="../tort.jpg" width="80%"/>
 		
-		</td>
-		</tr>
-
-		</table>
+	
 
 
