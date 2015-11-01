@@ -4,7 +4,7 @@
 
 ## Overview
 The project is related to 
-> use some algorithm to filp or rotate the image;
+> Use some algorithm to filp or rotate the image;
 
 ## Implementation
 1. image filpping
