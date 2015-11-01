@@ -47,7 +47,7 @@ The project is related to
        end
   end
 ```
-* image rotation 
+* image rotation </br>
 	-step1. Constructing the rotation matrix and image vertex matrix and get new vertex.
 	```
 	matrix = [cos(radius) -sin(radius) ; sin(radius) cos(radius)];
