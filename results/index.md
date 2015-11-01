@@ -8,17 +8,16 @@ The project is related to
 > To rotate image at any angle;
 
 ## Implementation
-### 1. image filpping
-	</br>
-	a. I seperate the image into three channel(R, G, B) and process them individually.  
-	b. By the giving information, I create the flipping algorithm by double for loop.
+ 1. image filpping
+ 
+	1. I seperate the image into three channel(R, G, B) and process them individually.  
+	2. By the giving information, I create the flipping algorithm by double for loop.
 	</center>
 	<img src="../files/fig1.png" width="510">
 	</center>
-	</br>
 
 ```
- <horizontal>
+ 1. horizontal
  
   for h = 1 : height
        for w = 1 : width 
@@ -28,7 +27,7 @@ The project is related to
        end
   end
 
-  <vertical>
+  2. vertical
   
   for w = 1 : width
        for h = 1 : height 
@@ -38,7 +37,7 @@ The project is related to
        end
   end
 	
-  <both>
+  3. both
   
   for h = 1 : height
        for w = 1 : width 
@@ -47,7 +46,7 @@ The project is related to
              B_flip(h, w) = B((height - h + 1),(width - w + 1));
        end
   end
-		```
+```
 	</br>
 
 	 
