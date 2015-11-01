@@ -50,13 +50,7 @@ The project is related to
 		```
 	 
 2. image rotation
-	  <img src="../files/fig3.png" width="510">	
-	  <br>
-	  <img src="../files/fig4.png" width="510">
-	  <br>
-
 	
-
 		## Installation
 		* Other required packages.
 		* How to compile from source?
