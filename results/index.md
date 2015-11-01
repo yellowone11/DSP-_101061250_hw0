@@ -80,7 +80,7 @@ The project is related to
 
 	-step5. back rapping 
 	  1. If the back rapping point is inside of the source image, calculate r,g,b by interpolation.
-	  2. else if it is outside of the source image , set r,g,b = 0;
+	  2. else if it is outside of the source image , set r,g,b = 0
 ```
 	    if(x1== x2)
                 wa = 1/2;
