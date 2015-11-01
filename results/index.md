@@ -105,6 +105,30 @@ The project is related to
              b = B(y1,x1)*w1 + B(y2,x1)*w2 + B(y2,x2)*w3 + B(y1,x2)*w4;
 ```
 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 	
 ### Results
 		<table border=1>
@@ -119,7 +143,7 @@ The project is related to
 		</tr>
 	
 		
-		<table border=2>
+		<table border=1>
 		<tr>
 		<td>
 		<img src="../result2/flip horizontal.jpg" width="18%"/>
