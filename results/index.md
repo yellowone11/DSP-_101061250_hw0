@@ -108,8 +108,6 @@ The project is related to
 
 
 		### Results
-	
-		
 		<table border=1>
 		<tr>
 		<td>
@@ -123,12 +121,8 @@ The project is related to
 		<tr>
 		<td>
 		<img src="../image.jpg" width="80%"/>
-	
 		</td>
 		</tr>
-		
-	
-		
 		</table>
 		<table border=1>
 		<tr>
